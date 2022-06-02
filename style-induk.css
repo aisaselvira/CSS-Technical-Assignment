@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(254, 214, 255);
+}
+.link h1 {
+    float: left;
+    padding: 20px 0;
+    color: rgb(47, 39, 80);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.link nav {
+    float: right;
+}
+.link nav a {
+    display: inline-block;
+    color: white;
+    margin-right: 12px;
+    text-decoration: none;
+    padding: 30px 25px;
+    display: inline-block;
+    background-color: rgb(62, 19, 63);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link nav a:hover {
+    background-color: rgb(123, 82, 146);
+    color: rgb(255, 255, 255);
+}
+.active {
+    background-color: rgb(91, 50, 114);
+    color: white;
+}
